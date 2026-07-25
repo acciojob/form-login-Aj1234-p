@@ -1,4 +1,8 @@
+let first = document.querySelector('input[name="fname"]')
+let last = document.querySelector('input[name="lname"]')
 function getFormvalue() {
-    //Write your code here
-
+	function completeName(first,last){
+		return `${first} ${last}`
+	}
+	alert(first.value,last.value);
 }
